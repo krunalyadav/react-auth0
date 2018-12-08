@@ -21,7 +21,7 @@ class Nav extends Component {
           </li>
           <li>
             <button onClick={isAuthenticated() ? logout : login}>
-              {isAuthenticated() ? "Log out" : "Log In"}
+              {isAuthenticated() ? 'Log out' : 'Log In'}
             </button>
           </li>
         </ul>

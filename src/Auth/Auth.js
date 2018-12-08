@@ -10,7 +10,7 @@ export default class Auth {
       redirectUri: process.env.REACT_APP_AUTH0_CALLBACK_URL,
       responseType: 'token id_token',
       scope: 'openid profile email',
-      audience:process.env.REACT_APP_AUTH0_AUDIENCE
+      audience: process.env.REACT_APP_AUTH0_AUDIENCE
     });
   }
 

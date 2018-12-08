@@ -37,7 +37,7 @@ class App extends Component {
               )
             }
           />
-          <Route path="/public" component={Public}></Route>
+          <Route path="/public" component={Public} />
           <Route
             path="/private"
             render={props => <Private auth={this.auth} {...props} />}
